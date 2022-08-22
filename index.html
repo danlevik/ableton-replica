@@ -4,9 +4,103 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Palanquin:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>Ableton replica</title>
   </head>
   <body>
-    <p>Initial commit</p>
+    <div class="container">
+      <header class="header">
+        <div class="main-header">
+          <a href="#" class="logo">
+            <svg
+              role="img"
+              aria-labelledby="logo"
+              class="main-nav-logo-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="45"
+              height="21"
+              viewBox="0 0 45 21"
+            >
+              <title id="logo">Ableton Homepage</title>
+              <path
+                d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"
+              ></path>
+            </svg>
+          </a>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li><a href="#" class="main-nav-link">Live</a></li>
+              <li><a href="#" class="main-nav-link">Push</a></li>
+              <li><a href="#" class="main-nav-link">Link</a></li>
+              <li><a href="#" class="main-nav-link">Shop</a></li>
+              <li><a href="#" class="main-nav-link">Packs</a></li>
+              <li><a href="#" class="main-nav-link">Help</a></li>
+              <li><a href="#" class="main-nav-link color-red">More +</a></li>
+
+              <li class="margin-left-max">
+                <a href="#" class="main-nav-link color-blue"
+                  >Try Live for free</a
+                >
+              </li>
+              <li><a href="#" class="main-nav-link">Log in or register</a></li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="secondary-nav">
+          <ul class="secondary-nav-list">
+            <li>
+              <a href="#" class="secondary-nav-link color-red">About</a>
+            </li>
+            <li><a href="#" class="secondary-nav-link">Jobs</a></li>
+            <li><a href="#" class="secondary-nav-link">Apprenticeships</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <header class="about-header">
+          <div
+            class="about-img-box"
+            role="img"
+            aria-label="person sitting in front of PC and making music"
+          >
+            Ableton
+          </div>
+        </header>
+
+        <section class="about-description">
+          <div class="text-container">
+            <h2 class="heading-secondary">
+              We make <a href="#" class="color-blue">Live</a>,
+              <a href="#" class="color-blue">Push</a> and
+              <a href="#" class="color-blue">Link</a> — unique software and
+              hardware for music creation and performance. With these products,
+              our community of users creates amazing things.
+            </h2>
+            <p class="text-content">
+              Ableton was founded in 1999 and released the first version of Live
+              in 2001. Our products are used by a community of dedicated
+              musicians, sound designers, and artists from across the world.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
