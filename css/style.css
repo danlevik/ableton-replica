@@ -78,10 +78,11 @@ body {
 /******************************************/
 
 .container {
-  /* 1600px */
-  max-width: 160rem;
+  /* 1400px */
+  max-width: 140rem;
   margin: 0 auto;
   background-color: #fff;
+  overflow: hidden;
 }
 
 .margin-left-max {
@@ -96,8 +97,16 @@ body {
   color: #0000ff !important;
 }
 
+.text-container {
+  width: 72rem;
+  margin: 0 auto 7vw auto;
+
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
 .heading-secondary {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   margin-bottom: 2.1rem;
   font-weight: 600;
 }
@@ -142,7 +151,7 @@ body {
 
 .main-nav-link:link,
 .main-nav-link:visited {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   text-decoration: none;
   color: #000;
@@ -160,14 +169,14 @@ body {
 .secondary-nav-link:link,
 .secondary-nav-link:visited {
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   color: #000;
 }
 
 .about-img-box {
   height: calc(100vh - 10.8rem);
-  margin: 0 8vw 8vw 8vw;
+  margin: 0 6vw 8vw 6vw;
   background-image: url("../img/header.jpg");
   background-size: cover;
   background-position: center;
@@ -176,17 +185,58 @@ body {
   font-size: 12rem;
   letter-spacing: -0.2rem;
   font-weight: 600;
-  padding-top: 36rem;
-}
-
-.about-description {
-  width: 80rem;
-  margin: 0 auto 9vw auto;
-
-  font-size: 1.8rem;
-  line-height: 1.6;
+  padding: 36rem 0;
 }
 
 .about-description a {
   text-decoration: none;
+}
+
+.about-photos {
+  position: relative;
+  margin: 0 11.5rem 8vw 11.5rem;
+  padding: 13rem 0;
+  color: #fd5948;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.yellow-box {
+  display: inline-block;
+  position: absolute;
+
+  content: "";
+  z-index: 0;
+  top: 0;
+  left: 48rem;
+  width: 81rem;
+  height: 81rem;
+  background-color: #fbffa7;
+}
+
+.photo--1 {
+  display: inline-block;
+  position: relative;
+  background-image: url("../img/photo-1.jpg");
+  background-size: cover;
+  background-position: center;
+
+  width: 55rem;
+  height: 55rem;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.photo--2 {
+  display: inline-block;
+  position: relative;
+  background-image: url("../img/photo-2.jpg");
+  background-size: cover;
+  background-position: center;
+
+  width: 51rem;
+  height: 38.5rem;
+  margin-left: 10.7rem;
+  vertical-align: middle;
+  z-index: 1;
 }
