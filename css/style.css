@@ -77,6 +77,11 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /******************************************/
 
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
 .container {
   /* 1600px */
   max-width: 160rem;
@@ -101,12 +106,16 @@ body {
   width: 80rem;
   margin: 0 auto 7vw auto;
 
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.6;
 }
 
+.text-container:not(last-child) p {
+  margin-bottom: 1.6rem;
+}
+
 .heading-secondary {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   margin-bottom: 2.1rem;
   font-weight: 600;
 }
@@ -324,4 +333,85 @@ body {
   margin-left: 13.3rem;
   width: 66.6rem;
   height: 66.6rem;
+}
+
+.poster {
+  margin: 0 11.5rem 13.3rem 11.5rem;
+
+  background-image: url("../img/poster-meet-the-makers.avif");
+  background-size: cover;
+  background-position: center;
+
+  width: 133.3rem;
+  height: 75rem;
+}
+
+.collage--meeting {
+  position: relative;
+  padding: 13.3rem 0;
+  margin-bottom: 11.5rem;
+}
+
+.lavander-box {
+  background-color: #d5b3ff;
+  position: absolute;
+  top: 0;
+  left: 26.6rem;
+  width: 106.6rem;
+  height: 93.3rem;
+}
+
+.photo--6 {
+  display: inline-block;
+  position: relative;
+  background-image: url("../img/photo-6.jpg");
+  background-size: cover;
+  background-position: center;
+
+  width: 53rem;
+  height: 40rem;
+  margin-left: 13.3rem;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.photo--7 {
+  display: inline-block;
+  position: relative;
+  background-image: url("../img/photo-7.jpg");
+  background-size: cover;
+  background-position: center;
+
+  width: 66rem;
+  height: 66rem;
+  margin-left: 27.464rem;
+  vertical-align: middle;
+  z-index: 1;
+  margin-right: 0;
+}
+
+.photo--8 {
+  display: inline-block;
+  position: relative;
+  background-image: url("../img/photo-8.jpg");
+  background-size: cover;
+  background-position: center;
+
+  width: 66rem;
+  height: 66rem;
+  margin-left: 13.3rem;
+  z-index: 1;
+}
+
+.teaser-text {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 66rem;
+  height: 66rem;
+  padding: 24.3rem 13.3rem;
+  margin-bottom: 13.3rem;
+  line-height: 1.5;
+  margin-left: -0.2rem;
+  background-color: #b1c5ff;
 }
