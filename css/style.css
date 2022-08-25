@@ -78,8 +78,8 @@ body {
 /******************************************/
 
 .container {
-  /* 1400px */
-  max-width: 140rem;
+  /* 1600px */
+  max-width: 160rem;
   margin: 0 auto;
   background-color: #fff;
   overflow: hidden;
@@ -98,7 +98,7 @@ body {
 }
 
 .text-container {
-  width: 72rem;
+  width: 80rem;
   margin: 0 auto 7vw auto;
 
   font-size: 1.6rem;
@@ -192,6 +192,8 @@ body {
   text-decoration: none;
 }
 
+/* PHOTO COLLAGE */
+
 .about-photos {
   position: relative;
   margin: 0 11.5rem 8vw 11.5rem;
@@ -239,4 +241,22 @@ body {
   margin-left: 10.7rem;
   vertical-align: middle;
   z-index: 1;
+}
+
+/* VIDEO */
+
+.video-container {
+  display: block;
+  width: 80rem;
+  margin: 0 auto 11.5rem auto;
+}
+
+.video {
+  width: 80rem;
+  height: 45rem;
+}
+
+.video-text {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
